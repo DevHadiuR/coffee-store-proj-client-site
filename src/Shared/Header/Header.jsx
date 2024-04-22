@@ -1,10 +1,16 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
-    return (
-      <div>
-        <h1>this is my header</h1>
-      </div>
-    );
-  };
-  
-  export default Header;
-  
+  return (
+    <div className="flex gap-5 mb-10">
+      <Link to="/" className="underline">
+        Home
+      </Link>
+      <Link to="/addCoffee" className="underline">
+        Add Coffee
+      </Link>
+    </div>
+  );
+};
+
+export default Header;

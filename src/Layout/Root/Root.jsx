@@ -4,10 +4,9 @@ import Footer from "../../Shared/Footer/Footer";
 
 const Root = () => {
   return (
-    <div>
-      <Header></Header>
+    <div className="">
+     <div className="flex justify-center"> <Header></Header></div>
       <Outlet></Outlet>
-      <Footer></Footer>
     </div>
   );
 };
