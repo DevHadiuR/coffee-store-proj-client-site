@@ -57,7 +57,7 @@ const AddCoffee = () => {
                 type="text"
                 name="coffeeName"
                 className="grow"
-                placeholder="Enter Coffee Name"
+                defaultValue="Enter Coffee Name"
               />
             </label>
             <label className="input input-bordered flex items-center gap-2">
@@ -66,7 +66,7 @@ const AddCoffee = () => {
                 type="text"
                 name="coffeeSupplier"
                 className="grow"
-                placeholder="Enter Coffee Supplier"
+                defaultValue="Enter Coffee Supplier"
               />
             </label>
             <label className="input input-bordered flex items-center gap-2">
@@ -75,7 +75,7 @@ const AddCoffee = () => {
                 type="text"
                 name="coffeeCategory"
                 className="grow"
-                placeholder="Enter Coffee Category"
+                defaultValue="Enter Coffee Category"
               />
             </label>
           </div>
@@ -87,7 +87,7 @@ const AddCoffee = () => {
                 type="text"
                 name="coffeeChef"
                 className="grow"
-                placeholder="Enter Coffee Chef"
+                defaultValue="Enter Coffee Chef"
               />
             </label>
             <label className="input input-bordered flex items-center gap-2">
@@ -96,7 +96,7 @@ const AddCoffee = () => {
                 type="text"
                 name="coffeeTaste"
                 className="grow"
-                placeholder="Enter Coffee Taste"
+                defaultValue="Enter Coffee Taste"
               />
             </label>
             <label className="input input-bordered flex items-center gap-2">
@@ -105,7 +105,7 @@ const AddCoffee = () => {
                 type="text"
                 name="coffeeDetails"
                 className="grow"
-                placeholder="Enter Coffee Details"
+                defaultValue="Enter Coffee Details"
               />
             </label>
           </div>
@@ -117,7 +117,7 @@ const AddCoffee = () => {
               type="url"
               name="coffeeUrl"
               className="grow"
-              placeholder="Enter Coffee Photo URL"
+              defaultValue="Enter Coffee Photo URL"
             />
           </label>
           <button type="submit" className="btn btn-secondary w-full">
